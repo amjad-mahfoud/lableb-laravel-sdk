@@ -1,0 +1,30 @@
+{
+    "name": "amjad/lableb",
+    "description": "Lableb cloud search laravel package",
+    "type": "library",
+    "require-dev": {},
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Amjad Mahfoud",
+            "email": "amjadoof@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "guzzlehttp/guzzle": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amjad\\Lableb\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amjad\\Lableb\\LablebServiceProvider"
+            ]
+        }
+    }
+}
