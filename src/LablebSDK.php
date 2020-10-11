@@ -21,6 +21,11 @@ class LablebSDK
         $this->sessionID = (new LablebSessionManager())->getSessionID();
     }
 
+    public function setToken($searchToken)
+    {
+        $this->searchToken = $searchToken;
+    }
+
     /**
      * Submits a search result click feedback
      * 
