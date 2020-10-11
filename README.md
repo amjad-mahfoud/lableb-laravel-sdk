@@ -5,4 +5,22 @@ Based on Lableb Php SDK https://solutions.lableb.com/documentation/tutorials/php
 use php artisan vendor:publish --tag=lableb to publish configuration file
 
 ## Set LABLEB_TOKEN 
-set LABLEB_TOKEN to your Lableb token
+create an set LABLEB_TOKENl in env file to your Lableb token
+
+## Usage
+
+```php
+    use Amjad\Lableb\LablebSDK;
+    $sdk = new LablebSDK("project");
+
+    $params = [
+        'q' => 'الذكاء',
+        'cat' => 'Technology',
+        'filter' => [
+          'meta_sa' => ['Technology']
+        ],
+        'limit' => 10
+      ];
+  
+    $response = $sdk->search('collection', $params);
+```
