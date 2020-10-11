@@ -1,6 +1,12 @@
 # Lableb Laravel SDK
 Based on Lableb Php SDK https://solutions.lableb.com/documentation/tutorials/php-sdk/installation 
 
+
+![Latest Version](https://img.shields.io/github/issues/amjad-mahfoud/lableb-laravel-sdk?style=for-the-badge)
+![Latest Version](https://img.shields.io/github/forks/amjad-mahfoud/lableb-laravel-sdk?style=for-the-badge)
+![Latest Version](https://img.shields.io/github/stars/amjad-mahfoud/lableb-laravel-sdk?style=for-the-badge)
+![Latest Version](https://img.shields.io/github/license/amjad-mahfoud/lableb-laravel-sdk?style=for-the-badge)
+
 ### Require Package:
 use ```composer require amjad/lableb``` to require the package
 
